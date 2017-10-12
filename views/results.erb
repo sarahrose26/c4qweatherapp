@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>6-Day Forecast Results</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+<h3>note: all temperatures are in Celcius</h3>
+<div class="container">
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Low Temperature</th>
+    <th>High Temperature</th>
+  </tr>
+  <tr>
+    <td><%= @weather0date %></td>
+    <td><%= @weather0low %></td>
+    <td><%= @weather0high%></td>
+  </tr>
+  <tr>
+    <td><%= @weather1date %></td>
+    <td><%= @weather1low %></td>
+    <td><%= @weather1high%></td>
+  </tr>
+  <tr>
+    <td><%= @weather2date %></td>
+    <td><%= @weather2low%></td>
+    <td><%= @weather2high%></td>
+  </tr>
+  <tr>
+    <td><%= @weather3date %></td>
+    <td><%= @weather3low%></td>
+    <td><%= @weather3high%></td>
+  </tr>
+  <tr>
+    <td><%= @weather4date %></td>
+    <td><%= @weather4low%></td>
+    <td><%= @weather4high%></td>
+  </tr>
+  <tr>
+    <td><%= @weather5date %></td>
+    <td><%= @weather5low%></td>
+    <td><%= @weather5high %></td>
+  </tr>
+</table>
+</div>
+   
+  </body>
+</html>
